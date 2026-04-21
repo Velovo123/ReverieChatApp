@@ -6,13 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		60950AFD2F96103C00757ACE /* ProgressiveBlurHeader in Frameworks */ = {isa = PBXBuildFile; productRef = 60950AFC2F96103C00757ACE /* ProgressiveBlurHeader */; };
+		60950B052F9643C600757ACE /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 60950B042F9643C600757ACE /* Auth */; };
+		60950B072F9643C600757ACE /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 60950B062F9643C600757ACE /* Functions */; };
+		60950B092F9643C600757ACE /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 60950B082F9643C600757ACE /* PostgREST */; };
+		60950B0B2F9643C600757ACE /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 60950B0A2F9643C600757ACE /* Realtime */; };
+		60950B0D2F9643C600757ACE /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 60950B0C2F9643C600757ACE /* Storage */; };
+		60950B0F2F9643C600757ACE /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 60950B0E2F9643C600757ACE /* Supabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		60950A482F96057400757ACE /* ReverieChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverieChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		60950B752F968CCA00757ACE /* Exceptions for "ReverieChatApp" folder in "ReverieChatApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 60950A472F96057400757ACE /* ReverieChatApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		60950A4A2F96057400757ACE /* ReverieChatApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				60950B752F968CCA00757ACE /* Exceptions for "ReverieChatApp" folder in "ReverieChatApp" target */,
+			);
 			path = ReverieChatApp;
 			sourceTree = "<group>";
 		};
@@ -23,6 +46,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60950B0F2F9643C600757ACE /* Supabase in Frameworks */,
+				60950B0D2F9643C600757ACE /* Storage in Frameworks */,
+				60950B092F9643C600757ACE /* PostgREST in Frameworks */,
+				60950B072F9643C600757ACE /* Functions in Frameworks */,
+				60950B052F9643C600757ACE /* Auth in Frameworks */,
+				60950B0B2F9643C600757ACE /* Realtime in Frameworks */,
+				60950AFD2F96103C00757ACE /* ProgressiveBlurHeader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +95,13 @@
 			);
 			name = ReverieChatApp;
 			packageProductDependencies = (
+				60950AFC2F96103C00757ACE /* ProgressiveBlurHeader */,
+				60950B042F9643C600757ACE /* Auth */,
+				60950B062F9643C600757ACE /* Functions */,
+				60950B082F9643C600757ACE /* PostgREST */,
+				60950B0A2F9643C600757ACE /* Realtime */,
+				60950B0C2F9643C600757ACE /* Storage */,
+				60950B0E2F9643C600757ACE /* Supabase */,
 			);
 			productName = ReverieChatApp;
 			productReference = 60950A482F96057400757ACE /* ReverieChatApp.app */;
@@ -94,6 +131,10 @@
 			);
 			mainGroup = 60950A3F2F96057400757ACE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				60950AFB2F96103C00757ACE /* XCRemoteSwiftPackageReference "ProgressiveBlurHeader" */,
+				60950B032F9643C600757ACE /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 60950A492F96057400757ACE /* Products */;
 			projectDirPath = "";
@@ -127,6 +168,8 @@
 /* Begin XCBuildConfiguration section */
 		60950A512F96057500757ACE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 60950A4A2F96057400757ACE /* ReverieChatApp */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -191,6 +234,8 @@
 		};
 		60950A522F96057500757ACE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 60950A4A2F96057400757ACE /* ReverieChatApp */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -248,6 +293,8 @@
 		};
 		60950A542F96057500757ACE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 60950A4A2F96057400757ACE /* ReverieChatApp */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -256,6 +303,7 @@
 				DEVELOPMENT_TEAM = M8W5AV4B4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReverieChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,6 +328,8 @@
 		};
 		60950A552F96057500757ACE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 60950A4A2F96057400757ACE /* ReverieChatApp */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -288,6 +338,7 @@
 				DEVELOPMENT_TEAM = M8W5AV4B4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReverieChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +383,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60950AFB2F96103C00757ACE /* XCRemoteSwiftPackageReference "ProgressiveBlurHeader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dominikmartn/ProgressiveBlurHeader";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		60950B032F9643C600757ACE /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60950AFC2F96103C00757ACE /* ProgressiveBlurHeader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60950AFB2F96103C00757ACE /* XCRemoteSwiftPackageReference "ProgressiveBlurHeader" */;
+			productName = ProgressiveBlurHeader;
+		};
+		60950B042F9643C600757ACE /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60950B032F9643C600757ACE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		60950B062F9643C600757ACE /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60950B032F9643C600757ACE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		60950B082F9643C600757ACE /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60950B032F9643C600757ACE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		60950B0A2F9643C600757ACE /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60950B032F9643C600757ACE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		60950B0C2F9643C600757ACE /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60950B032F9643C600757ACE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		60950B0E2F9643C600757ACE /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60950B032F9643C600757ACE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 60950A402F96057400757ACE /* Project object */;
 }
